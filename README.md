@@ -1,23 +1,30 @@
-# Audit your teammate's project
+# Audit your teammate's project — MIRA
 
 **Track:** Module 7 — EU AI Act · **When:** Week 7, Day 2 · **Status:** Required
 
-This repository contains everything you need for this lab.
+This repository contains the independent peer audit of MIRA.
 
-## Files
+## Audit scope
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+**Auditor:** Paola Hintze  
+**Teammate:** Maria Cavali (`mariacavali`)  
+**Project audited:** MIRA Project 3 — the V4 creative-direction and moodboard journey, with shared-platform boundaries considered where relevant.
 
-## How to complete this lab
+The provisional peer classification and findings were completed before the teammate's self-audit conclusions were opened. The self-audit was reviewed afterward only for the debrief comparison.
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+## File map
+
+- [`mira_peer_audit_evidence_log.md`](./mira_peer_audit_evidence_log.md) — annotated brief, independent first-pass classification, clarifying questions, assumptions, and evidence record
+- [`mira_eu_ai_act_peer_audit_report.md`](./mira_eu_ai_act_peer_audit_report.md) — two-page structured peer audit report
+- [`mira_peer_audit_debrief_and_work_plan.md`](./mira_peer_audit_debrief_and_work_plan.md) — comparison with the builder's self-audit, joint closing note, and stretch remediation plan
+- [`instructions.md`](./instructions.md) — lab instructions
+- [`rubric.md`](./rubric.md) — grading criteria
+
+## Submission status
+
+The written audit is complete. Before final submission, both participants should confirm the joint closing note and record any corrections in the debrief file.
 
 ## Submission hygiene
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+- This repository is scoped only to this lab.
+- No credentials, personal user records, or unrelated project files are included.
