@@ -12,9 +12,9 @@ The auditor classified MIRA as **limited risk / transparency**. The main finding
 
 ### 2. Builder responds
 
-The builder's written self-audit states that MIRA is a private, owner-scoped creative system with human review, not a consequential decision system. It identifies the same core needs: AI disclosure, output transparency/metadata, a provider/deployer matrix, privacy and retention controls, and a lightweight compliance record. It recommends keeping MIRA in private staging until the relevant controls are in place.
+Maria confirmed that her audit classified MIRA as **Limited risk / transparency** with **Proceed with conditions**. Her main findings were AI transparency and provenance, GDPR and data retention, the production security boundary, and making human review auditable.
 
-**Builder confirmation requested:** Please confirm that this paragraph accurately represents your response, or provide corrections before final submission.
+**Builder response received:** 18 August 2026.
 
 ### 3. Compare classifications
 
@@ -33,16 +33,17 @@ There is no tier disagreement. Both reviews rely on MIRA's documented creative i
 | Generated-output disclosure | Agreement on the gap. The peer audit adds legal precision: Article 50(2) focuses on machine-readable marking; a visible label alone is good practice but may not satisfy that technical duty. |
 | Privacy and retention | Agreement. The peer audit expands the gap to lawful basis, processor terms, deletion across vendors/backups, special-category spillover, and DPIA screening. |
 | Provider/deployer mapping | Agreement. The peer audit distinguishes AI-component providers from ordinary infrastructure processors and asks for named legal entities. |
-| Human review | Agreement that selection/refinement gates are valuable. The peer audit clarifies that human review does not determine the risk tier; intended purpose does. |
+| Production security boundary | The builder's audit makes this an explicit finding. The peer audit addresses it through production vendor allocation, processor contracts, data flows, and security ownership; the debrief confirms that the boundary must be documented and tested before external deployment. |
+| Human review | Agreement that selection/refinement gates are valuable. The builder adds that review must be auditable; the peer audit clarifies that human review does not determine the risk tier, because intended purpose does. Closure evidence should therefore include reviewer actions, approvals, overrides, and retained logs. |
 | Acceptable use/reclassification | Mainly external-audit addition: document prohibited repurposing and re-run the assessment when use cases change. |
 
 ### 5. Joint closing note
 
-Auditing our own work made the product purpose and existing safeguards easy to explain, while the external review tested whether those claims were visible and verifiable to someone who did not build the system. The comparison shows that self-audit is strong for architectural context, but peer audit adds precision around evidence, legal wording, vendor boundaries, and assumptions that builders may treat as obvious.
+Comparing the two audits showed that the core conclusion was consistent: both reviewers classified MIRA as limited risk / transparency and recommended proceeding only with conditions. The self-audit contributed deeper implementation context, particularly around the production security boundary and auditable human review, while the external audit sharpened the evidence needed for transparency, provenance, privacy, and role allocation. Together, the exercise showed that self-audit explains how safeguards were intended to work, whereas peer audit tests whether those safeguards are sufficiently documented and verifiable.
 
 **Joint acceptance required before submission:**
 
-- [ ] Paola confirms this note reflects the auditor's view.
+- [x] Paola confirms this note reflects the auditor's view.
 - [ ] Maria confirms this note reflects the builder's view.
 - [ ] Any corrections from the live conversation are recorded below.
 
