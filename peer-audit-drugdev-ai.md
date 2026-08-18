@@ -26,6 +26,12 @@
 
 ---
 
+## CFU 1: Recognize
+
+First-pass risk tier, from the brief alone: **Limited risk, transparency obligations.** DrugDev-AI does not fall under any Article 5 prohibited practice, no manipulation, exploitation, social scoring, or biometric identification is present. It also does not appear to sit inside an Annex III high-risk area: the brief states directly that it "does not produce scores about people, approve or reject applications, rank individuals, or make automated decisions that directly affect legal rights," and its audience is professionals rather than patients or the general public. That rules out the closest candidate, Annex III(3)(b) on evaluating learning outcomes, since Learn mode's quizzes read as informal and non-binding by the brief's own description. What does apply is **Article 50(1)**: the system interacts directly with natural persons through Ask mode's conversational Q&A, so it needs to disclose that users are talking to an AI system. That single transparency obligation, not an Annex III high-risk designation, is what governs this system on a first read of the brief.
+
+---
+
 ## Phase 1: Read and annotate
 
 **Elements that affect the risk tier classification:**
@@ -142,3 +148,15 @@ This report is not a legal opinion, not a conformity assessment, and not a certi
 ## Phase 5: Debrief conversation
 
 Held 2026-08-18, see `debrief-notes.md` for the notes and joint closing note. This audit report and the debrief notes stayed separate deliverables until then, in line with the lab's ground rules (no discussing findings before Phase 5).
+
+---
+
+## Stretch: Work plan for Finding 1 (missing AI-interaction disclosure)
+
+**Deliverable:** An in-app AI-interaction and reliance notice: a persistent banner (sidebar or footer, visible on every screen) plus a short reminder line under each Ask-mode response, both stating that responses are AI-generated and should be verified before acting on them. This closes the Article 50(1) gap directly and gives the brief's "reviewed before any action is taken" claim something real to point to in the product.
+
+**Who is responsible:** Nevena writes and implements the banner copy and the Streamlit component, since it is a small, self-contained UI change. A compliance-minded reviewer, even an informal one such as a bootcamp mentor, signs off on the final wording before it ships, to confirm it actually informs users of AI interaction rather than reading as generic boilerplate.
+
+**Timeline:** About one week. Draft copy: 1 day. Implement the banner and the per-response reminder in `src/app.py`: 1 to 2 days. Review and sign-off: 1 day, with a small buffer. Realistic to close before any Sprint 1 GTM work starts.
+
+**Evidence needed to verify it is closed:** A screenshot or short live demo showing the notice visible on first load and staying on-screen during Ask-mode use, confirmation the wording covers both the AI-interaction disclosure and the reliance reminder, and a short note in `project_plan.md` or the README recording that the transparency notice was added and where it lives in the code.
