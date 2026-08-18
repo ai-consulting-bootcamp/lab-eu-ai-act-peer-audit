@@ -22,7 +22,7 @@ The provisional peer classification and findings were completed before the teamm
 
 ## Submission status
 
-The written audit is complete. Before final submission, both participants should confirm the joint closing note and record any corrections in the debrief file.
+The written audit and debrief are complete. Both participants confirmed the joint closing note, and no corrections were recorded.
 
 ## Submission hygiene
 
