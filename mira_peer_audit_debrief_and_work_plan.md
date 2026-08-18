@@ -44,8 +44,8 @@ Comparing the two audits showed that the core conclusion was consistent: both re
 **Joint acceptance required before submission:**
 
 - [x] Paola confirms this note reflects the auditor's view.
-- [ ] Maria confirms this note reflects the builder's view.
-- [ ] Any corrections from the live conversation are recorded below.
+- [x] Maria confirms this note reflects the builder's view (“we got same,” 18 August 2026).
+- [x] Any corrections from the live conversation are recorded below.
 
 **Corrections / additional context:** _None recorded yet._
 
