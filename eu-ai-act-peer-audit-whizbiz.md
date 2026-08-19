@@ -201,6 +201,37 @@ market placement, and the classification should be revisited if the product's sc
 
 ## Phase 5: Debrief conversation
 
-_Runs as a single document exchange rather than a meeting — [`exchange-with-vittal-ai-act.md`](./exchange-with-vittal-ai-act.md)
-carries the questions out, his tier and findings recorded before he reads this report, his response
-after, and the joint closing note. Pending his return of that file._
+**Complete.** Conducted as a single document exchange —
+[`exchange-with-vittal-ai-act.md`](./exchange-with-vittal-ai-act.md) holds the returned file.
+
+**Answers received.** All five clarifying questions answered, and **four of my five provisional
+assumptions were confirmed correct**: no in-product AI disclosure beyond the product name (verified by
+Vittal against the exported workflow rather than from memory), provider entity undecided, production
+running on the bootcamp instance, and the news headline presented as fact with no verification step.
+
+**One assumption was corrected, and it improved the finding.** I had assumed `Kunde` and `Addresse`
+were plausibly necessary. They are *mandatory* content of a German invoice under §14 UStG-style
+requirements, which narrows **Finding 5** from "third-party personal data with unclear necessity" to
+"legally necessary personal data with no notice path". That is a better finding: it removes the naive
+remediation ("drop the fields") and leaves the real one, which is notice and minimisation.
+
+**Tiers agreed.** Vittal's self-audit also concluded **limited risk / transparency under Article
+50(1)**, and his top three findings — no in-product disclosure, no Article 4 literacy material,
+provider entity undecided — match my Findings 1, 2 and 4.
+
+**Convergence, honestly qualified.** Vittal disclosed that my report reached him in the same batch as
+this exchange file, so he had seen my conclusions before recording his own tier in Part 2. That means
+the agreement here is not evidence of independent convergence, and I record it rather than claiming
+the stronger result. His own view is that a blind version would have landed in the same place given
+how unambiguous the facts are, which I think is right — but "probably would have" is not "did".
+
+**What he added that I could not see from outside.** The receipt flow already sends a confirmation
+message — *"€23.80, REWE, 19% USt, category: Wareneinkauf — correct?"* — which is a working human
+review point rather than incidental UX, and is the concrete mechanism behind my own observation that
+the human stays in the loop by construction. He also explained that a fuller confirm/cancel gate was
+cut for an n8n engineering reason, not because review was undervalued. Neither fact is inferable from
+a repository, and both change how fast Findings 1 and 2 can realistically be closed.
+
+**What I contributed that he had weighted differently.** Article 4 applying at *every* tier rather
+than being a high-risk concern, and framing provider status as a live accountability gap tied to a
+specific trigger — "the moment that ships" — rather than an abstract future question.
