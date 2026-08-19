@@ -1,4 +1,4 @@
-# Phase 3:Clarifying Questions Log
+# Phase 3 / CFU Checkpoint 2: Probe - Clarifying Questions Log
 
 Information requested from client on 2026-08-18.
 

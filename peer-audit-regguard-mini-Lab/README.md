@@ -1,6 +1,6 @@
 # Peer Audit Lab
 
-Teammate audited: Kimia Asgari
+Teammate audited: [teammate's name]
 Project audited: RegGuard-Mini, an AI design-support assistant for car exterior designers
 
 ## File map
@@ -8,11 +8,12 @@ Project audited: RegGuard-Mini, an AI design-support assistant for car exterior 
 | File | Contains |
 |---|---|
 | `00-kickoff-exchange.md` | What was exchanged before the audit, and confirmation ground rules were followed |
-| `01-annotations.md` | Annotated read of the teammate's system brief |
+| `00a-lesson-alignment.md` | Confirmation of lesson materials reviewed before starting |
+| `01-annotations.md` | Annotated read of the teammate's system brief (CFU Checkpoint 1: Recognize) |
 | `02-classification-table.md` | First-pass risk tier classification with justification |
-| `03-clarifying-questions.md` | Clarifying questions log, with provisional assumptions |
-| `04-audit-report.md` | Full structured audit report, six sections |
-| `05-debrief-closing-note.md` | Auditor presents, builder responds, classification and gap comparison, joint closing note |
+| `03-clarifying-questions.md` | Clarifying questions log, with provisional assumptions (CFU Checkpoint 2: Probe) |
+| `04-audit-report.md` | Full structured audit report, six sections (CFU Checkpoints 3 and 4: Map roles, Find the gaps) |
+| `05-debrief-closing-note.md` | Auditor presents, builder responds, classification and gap comparison, joint closing note (CFU Checkpoint 5: Debrief) |
 | `06-reinforce.md` | Optional reinforce questions, completed |
 
 ## Result
