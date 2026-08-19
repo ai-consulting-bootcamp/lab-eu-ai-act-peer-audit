@@ -34,13 +34,13 @@ entries, and the books are reported back on request and on a daily schedule.
 | File | Contents |
 |---|---|
 | [`eu-ai-act-peer-audit-whizbiz.md`](./eu-ai-act-peer-audit-whizbiz.md) | The audit: Phase 1 read and annotate, Phase 2 first-pass classification, Phase 3 clarifying-questions log, Phase 4 audit report (system summary, risk classification, role map, six findings with severity, overall recommendation, disclaimer) |
-| [`questions-for-vittal-ai-act.md`](./questions-for-vittal-ai-act.md) | The clarifying questions as sent to my teammate — the audit-trail artefact, with my provisional assumptions withheld so they could not lead his answers |
-| [`debrief-and-joint-closing-note.md`](./debrief-and-joint-closing-note.md) | Phase 5: the five-step debrief and the joint closing note |
+| [`exchange-with-vittal-ai-act.md`](./exchange-with-vittal-ai-act.md) | The single exchange document: Phase 3 clarifying questions, my teammate's tier and findings recorded before he reads my report, his response, and the Phase 5 joint closing note |
 | [`stretch-work-plan-article-50-disclosure.md`](./stretch-work-plan-article-50-disclosure.md) | Stretch: consulting work plan closing Finding 1 — deliverable, owner, timeline, and the evidence that would verify it |
 | [`reinforce-audit-reflections.md`](./reinforce-audit-reflections.md) | Reinforce: reflections on the questions asked of my own system, and what auditing someone else's revealed |
 
-**Working mode:** all exchange with my teammate is by markdown document — questions out, answers
-back, report, then the debrief written into a shared file.
+**Working mode:** one markdown document each way. The exchange file goes out with the report, comes
+back with his answers, his own position and the joint note — the questions log and the debrief are
+the same artefact rather than four round trips.
 
 **Ground rules observed:** only Vittal's project materials were exchanged before the audit — no
 self-audit findings, tier or gap list — and clarifying questions were logged in writing rather than

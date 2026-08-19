@@ -65,7 +65,7 @@ exposure even where the AI Act stays silent.
 
 ## Phase 3: Clarifying questions log
 
-Sent to Vittal as [`questions-for-vittal-ai-act.md`](./questions-for-vittal-ai-act.md) on 19 August 2026, before this report was finalised — we work by
+Sent to Vittal as [`exchange-with-vittal-ai-act.md`](./exchange-with-vittal-ai-act.md) on 19 August 2026, before this report was finalised — we work by
 document exchange, so the log is the artefact rather than a record of a conversation. **The
 provisional assumptions below were deliberately withheld from the version he received**, so they
 could not lead his answers. No answers at the time of writing.
@@ -201,5 +201,6 @@ market placement, and the classification should be revisited if the product's sc
 
 ## Phase 5: Debrief conversation
 
-_Pending. To be completed with Vittal in the five-step sequence: auditor presents, builder responds,
-compare classifications, compare gap lists, joint closing note._
+_Runs as a single document exchange rather than a meeting — [`exchange-with-vittal-ai-act.md`](./exchange-with-vittal-ai-act.md)
+carries the questions out, his tier and findings recorded before he reads this report, his response
+after, and the joint closing note. Pending his return of that file._
