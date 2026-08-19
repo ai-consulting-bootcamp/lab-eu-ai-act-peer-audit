@@ -2,7 +2,7 @@
 
 **Audited project:** AI Delivery Risk Assistant  
 **Builder:** Akansha Verma  
-**Auditor:** [Your Name]  
+**Auditor:** Vincent de Paul 
 **Audit date:** 18 August 2026
 
 ---
@@ -215,24 +215,24 @@ The debrief will cover:
 ### Debrief notes
 
 **Builder's self-audit classification:**  
-_To be completed after debrief._
+_**Limited risk / transparency**_
 
 **Auditor's classification:**  
 **Limited risk / transparency**
 
 **Points of agreement:**  
-_To be completed after debrief._
+_**Agreed on all points**_
 
 **Points of disagreement:**  
-_To be completed after debrief._
+_**No disagreement**_
 
 **Additional information provided by builder:**  
-_To be completed after debrief._
+_**No additional information**._
 
 ---
 
 ## Section 9 — Joint Closing Note
 
-_To be completed jointly with Akansha after the debrief conversation._
+_The brief is in line with what she identified with her project; no gaps found. The audit is acceptable._
 
 > The peer audit demonstrated the difference between reviewing a system as its builder and reviewing it as an independent auditor. The external perspective made it easier to identify assumptions that were not explicitly documented, particularly around transparency and production data protection. The debrief also helped distinguish genuine compliance questions from areas where additional system information was simply needed.
