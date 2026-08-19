@@ -65,8 +65,10 @@ exposure even where the AI Act stays silent.
 
 ## Phase 3: Clarifying questions log
 
-Sent to Vittal in writing on 19 August 2026, before this report was finalised. No answers received at
-the time of writing; each carries the assumption I proceeded on.
+Sent to Vittal as [`questions-for-vittal-ai-act.md`](./questions-for-vittal-ai-act.md) on 19 August 2026, before this report was finalised — we work by
+document exchange, so the log is the artefact rather than a record of a conversation. **The
+provisional assumptions below were deliberately withheld from the version he received**, so they
+could not lead his answers. No answers at the time of writing.
 
 **Q1 — Is the bot's AI nature disclosed to the user in-product, or only in the marketing?**
 *Why it matters:* Article 50(1) is the only obligation that attaches at this tier, so this single

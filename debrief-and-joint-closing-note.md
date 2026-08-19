@@ -2,16 +2,22 @@
 
 **Participants:** Ugo Ahukannah (auditor) and Vittal Navale (builder) · **System:** Whizbiz — Messenger Accountant
 
-_To be completed live, in the five-step sequence. Nothing below is filled in ahead of the
+**Conducted by document exchange, not live** — this file is passed between us, each side writing
+into its own rows. The sequence is preserved: I present first and he responds without having seen
+my findings beforehand.
+
+_To be completed in the five-step sequence. Nothing below is filled in ahead of the
 conversation — the lab's ground rules make the sequence the point, and a pre-written debrief would be
 a fabricated one._
 
 ## 1. Auditor presents
-_Walk through [`eu-ai-act-peer-audit-whizbiz.md`](./eu-ai-act-peer-audit-whizbiz.md) without
-interruption._
+_Sent to Vittal as [`eu-ai-act-peer-audit-whizbiz.md`](./eu-ai-act-peer-audit-whizbiz.md), unabridged,
+after his answers to the clarifying questions arrive._
 
 ## 2. Builder responds
-_Five minutes for context, choices, or information the materials did not carry._
+_His written response: context, choices, or information the materials did not carry._
+
+> _Vittal's response:_
 
 ## 3. Compare classifications
 | | Tier |
