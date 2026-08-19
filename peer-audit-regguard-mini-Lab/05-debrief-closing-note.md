@@ -1,5 +1,13 @@
 # Phase 5 - Debrief Closing Note
 
+## Auditor presents
+
+Walked through the audit report without interruption: first-pass tier of minimal risk, the four findings (Article 50 disclosure clarity, downstream scope creep, undefined data retention, confidential geometry exposure to the LLM vendor), and the overall recommendation of proceed with conditions. Teammate listened without responding until the presentation was complete.
+
+## Builder responds
+
+Teammate explained that the chat interface being connected to an LLM was, in her view, not a minor disclosure detail but the reason the system crosses into limited risk. Generated text carries a different kind of risk than a static interface, since it can be wrong or misleading, and that risk compounds with how the designer uses the output. She also walked through her Article 6(1) / Annex I reasoning and why she flagged it as the weakest joint in her own classification, rather than treating it as settled.
+
 ## Classification comparison
 
 | | Self-audit tier (builder) | Peer audit tier (auditor) | Match? |
