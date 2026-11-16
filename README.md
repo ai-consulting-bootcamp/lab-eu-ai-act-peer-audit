@@ -8,6 +8,8 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`lab_proof.md`](./lab_proof.md) — the proof document for the lab, showing the project work and evidence prepared for review.
+- [`Fix My Process System brief.md`](./Fix%20My%20Process%20System%20brief.md) — a concise system brief describing Fix My Process (by Ayhan Demir), its purpose, users, workflow, and the risks it raises around governance and compliance.
 
 ## How to complete this lab
 
