@@ -1,23 +1,35 @@
-# Audit your teammate's project
+# Menohelp: EU AI Act peer audit
 
-**Track:** Module 7 — EU AI Act · **When:** Week 7, Day 2 · **Status:** Required
+**Start with [lab_proof.md](lab_proof.md).**
 
-This repository contains everything you need for this lab.
+Auditor: **Sergii Rostovskyi**. Teammate: **Ben Mayer** (confirmed by Sergii and identified in the source README). Audited project: [Menohelp / Project Menopause Insights](https://github.com/benmayer/proj-menopause-insights), commit `89940e85b3f869b888e247a5b9651020b8d6c865`. Review date: 16 November 2026.
 
-## Files
+**Status:** Package prepared for submission under an instructor-approved synthetic-completion arrangement, as reported by Sergii. Missing teammate inputs and debrief are explicitly simulated; this is not evidence of a real exchange or launch certification. See [simulation disclosure](simulation-disclosure.md).
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+## File map
 
-## How to complete this lab
+- [Lab proof](lab_proof.md): reviewer entry point, workflow, reproducible check and submission status.
+- [Two-page audit PDF](menohelp-independent-audit-report.pdf) / [editable report](menohelp-independent-audit-report.md): six required sections.
+- [System brief and annotations](menohelp-system-brief-and-annotations.md): reconstructed brief, provenance and marked evidence.
+- [Classification and questions](menohelp-classification-and-questions.md): classification table and five written questions.
+- [Obligations and readiness](menohelp-obligations-and-readiness.md): roles, transparency and conditional high-risk checklist.
+- [Evidence and legal sources](menohelp-evidence-and-legal-sources.md): commit-pinned references and legal-source notes.
+- [Debrief and joint note](menohelp-debrief-and-joint-note.md): completed five-step simulation and labelled joint-note substitute.
+- [Remediation work plan](menohelp-remediation-work-plan.md): optional stretch task.
+- [Evidence script](evidence/reproduce_release_routes.py) / [observed results](evidence/route-check-results.json): isolated routing reproduction.
+- [Lab instructions](instructions.md) and [grading rubric](rubric.md): original assignment files, unchanged.
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+## Submission workflow
 
-## Submission hygiene
+Review the disclosed synthetic substitutes under the instructor-approved arrangement. After Sergii explicitly approves GitHub changes, commit and push the reviewed files to [this lab repository](https://github.com/s-rostovskyi/lab-eu-ai-act-peer-audit), then follow the course's pull-request workflow against the correct upstream lab. Keep the PR open, return to Student Portal and review its feedback. GitHub account linking and upstream PR details have not been verified. No commits, pushes or PRs were performed during preparation.
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+Only lab deliverables and supporting audit evidence belong here. The colleague's source checkout, private health records and course-material dumps are excluded.
+
+## Synthetic completion materials
+
+- [Disclosure and provenance](simulation-disclosure.md).
+- [Synthetic system brief](menohelp-synthetic-system-brief.md).
+- [Synthetic written answers Q1-Q5](menohelp-synthetic-builder-responses.md).
+- [Simulated builder self-audit](menohelp-synthetic-builder-self-audit.md), read only at the debrief comparison stage.
+
+The original report and code evidence remain unchanged. Final exercise disposition is recorded in the debrief.
