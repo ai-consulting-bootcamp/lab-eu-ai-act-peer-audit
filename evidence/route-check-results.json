@@ -1,0 +1,60 @@
+{
+  "review_date": "2026-11-16",
+  "source_commit": "89940e85b3f869b888e247a5b9651020b8d6c865",
+  "source_file": "app/agent/nodes.py",
+  "source_sha256": "6de7e2794e1b222a1da31a63b58cd9e93bd2f47ecfb3dae6ccadab70d13f45a2",
+  "method": "Isolated execution of two source-extracted routing functions; not an end-to-end application test",
+  "max_retries": 2,
+  "results": [
+    {
+      "case": "findings_failure_with_retry",
+      "function": "route_after_check",
+      "input": {
+        "passed": false,
+        "retries": 2
+      },
+      "output": "write"
+    },
+    {
+      "case": "findings_failure_exhausted",
+      "function": "route_after_check",
+      "input": {
+        "passed": false,
+        "retries": 3
+      },
+      "output": "interpret"
+    },
+    {
+      "case": "guard_failure_with_retry",
+      "function": "route_after_guard",
+      "input": {
+        "guard_errors": [
+          "unsupported claim"
+        ],
+        "i_retries": 2
+      },
+      "output": "interpret"
+    },
+    {
+      "case": "guard_failure_exhausted",
+      "function": "route_after_guard",
+      "input": {
+        "guard_errors": [
+          "unsupported claim"
+        ],
+        "i_retries": 3
+      },
+      "output": "end"
+    },
+    {
+      "case": "guard_success_control",
+      "function": "route_after_guard",
+      "input": {
+        "guard_errors": [],
+        "i_retries": 0
+      },
+      "output": "end"
+    }
+  ],
+  "conclusion": "After retries are exhausted, failed findings continue to interpretation and failed guardrails terminate normally. UI delivery paths require separate source inspection."
+}
