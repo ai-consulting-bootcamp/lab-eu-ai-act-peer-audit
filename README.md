@@ -8,16 +8,15 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`companyscope_system_brief.md`](./companyscope_system_brief.md) — Sean Langsdorf's exchanged system brief for the CompanyScope project
+- [`companyscope_phase1_annotations.md`](./companyscope_phase1_annotations.md) — Phase 1 evidence annotations
+- [`companyscope_classification_and_questions.md`](./companyscope_classification_and_questions.md) — Phase 2 classification table and Phase 3 questions log
+- [`companyscope_peer_audit_report.md`](./companyscope_peer_audit_report.md) — Phase 4 audit report
+- [`companyscope_debrief_record.md`](./companyscope_debrief_record.md) — Phase 5 debrief record and closing-note draft
+- [`companyscope_remediation_workplan.md`](./companyscope_remediation_workplan.md) — Stretch work plan for the highest-priority finding
 
-## How to complete this lab
+## Audit scope
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+Teammate audited: Sean Langsdorf<br>
+Project audited: CompanyScope, an n8n/OpenRegister/Tavily/OpenAI research-briefing prototype for German registered companies.
 
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
