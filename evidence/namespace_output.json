@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "studio": "Fixture A",
+      "upload": true,
+      "write": {
+        "index": "audit-fixture-index",
+        "namespace": "custom-strategy",
+        "clear": true
+      },
+      "read": {
+        "index": "audit-fixture-index",
+        "namespace": "custom-strategy"
+      }
+    },
+    {
+      "studio": "Fixture B",
+      "upload": true,
+      "write": {
+        "index": "audit-fixture-index",
+        "namespace": "custom-strategy",
+        "clear": true
+      },
+      "read": {
+        "index": "audit-fixture-index",
+        "namespace": "custom-strategy"
+      }
+    },
+    {
+      "studio": "Fixture C",
+      "upload": false,
+      "write": null,
+      "read": {
+        "index": "audit-fixture-index",
+        "namespace": "northstar-strategy"
+      }
+    }
+  ],
+  "same_custom_target": true,
+  "clear_namespace_requested": true,
+  "conclusion": "In a shared hosted instance the export supplies no per-studio or per-run namespace for uploads. No real data exposure or deletion tested."
+}
