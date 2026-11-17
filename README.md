@@ -8,6 +8,7 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`peer-audit-ai-interview-preparation-agent-martha-by-barsha.md`](./peer-audit-ai-interview-preparation-agent-martha-by-barsha.md) — my peer audit: annotations, classification, clarifying questions log, audit report, debrief with joint closing note, reinforce and work plan
 
 ## How to complete this lab
 
@@ -21,3 +22,10 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+## Peer audit details
+
+- **Auditor:** Barsha Mishra
+- **Teammate:** Martha
+- **Project audited:** Martha's Project 3 — AI Interview Preparation Agent (n8n workflow that creates personalised interview preparation reports for job seekers)
+- **My project audited by Martha:** AI Search Visibility Agent
