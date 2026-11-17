@@ -6,90 +6,110 @@
 
 | Question | Answer |
 |---|---|
-| Does this system fall under any prohibited category (Article 5)? | No, based on the brief. It does not use a prohibited practice such as social scoring or workplace emotion recognition. |
-| Does this system operate in any of the eight Annex III areas? | No, based on the described purpose. It supports internal process improvement; it does not assess or make decisions about employees. |
-| If Annex III: does it significantly influence decisions in that area, or is it narrow/preparatory? | Not applicable: the described system is not in an Annex III area. Its recommendations may inform internal workflow choices, but do not determine decisions about people. |
-| Does this system interact with end users or generate content requiring disclosure (Article 50)? | Yes. Employees interact directly with it, so they should be informed they are interacting with AI (Article 50(1), unless this is obvious). Article 50(2)'s marking rules for generated content depend on the content and its use; they do not automatically apply to every internal report. |
+| Does this system fall under any prohibited category (Article 5)? | No prohibited practice is described in v2. The brief does not describe social scoring or workplace emotion recognition; confirm that no such functions exist in the implemented system. |
+| Does this system operate in any of the eight Annex III areas? | No Annex III use is described. It advises staff on process problems; it is not described as monitoring/evaluating worker performance or making employment decisions. |
+| If Annex III: does it significantly influence decisions in that area, or is it narrow/preparatory? | Not applicable on the stated purpose. Confirm that recommendations are not used to make or materially influence employment decisions under Annex III, point 4. |
+| Does this system interact with end users or generate content requiring disclosure (Article 50)? | Yes. Employees interact with it, and the report is labelled AI-generated, which is relevant to Article 50(1); confirm the notice is provided at the required point. Because it generates text, assess Article 50(2)'s machine-readable marking duty and its exceptions; the brief does not establish whether the report label meets that technical duty. The described internal use does not indicate the deepfake or public-interest publication disclosures in Article 50(4)–(5). |
 | First-pass risk tier | Limited risk / transparency obligations, based on the brief; not prohibited or high-risk on the facts provided. |
-| One-sentence justification citing the specific article or Annex entry | The system provides internal workflow recommendations rather than making decisions in an Annex III area (including employment, Annex III, point 4), and no Article 5 prohibited practice is described; its direct employee interaction brings Article 50(1) transparency into scope. |
+| One-sentence justification citing the specific article or Annex entry | On the stated purpose, the system supports process improvement rather than employment decisions in Annex III, point 4, and no Article 5 practice is described; its employee interaction and generated text make Article 50(1) and (2) transparency duties relevant. |
 
 ## Clarifying questions log
 
-1. **Does the system ever infer emotions or sensitive traits about employees, or score people based on behavior or personal characteristics?**
-   - **What I need to know:** Whether it analyzes biometric or other personal signals, or creates individual/social scores.
-   - **Why it matters:** These uses could change the Article 5 prohibited-practice assessment, including workplace emotion recognition or social scoring.
+1. **Does the system infer emotions from biometric data in the workplace, or evaluate or score workers across contexts?**
+   - **What I need to know:** Whether it performs workplace emotion recognition or creates scores that evaluate people across contexts.
+   - **Why it matters:** Certain workplace emotion-recognition and social-scoring practices are prohibited by Article 5, subject to the Act's specific scope and exceptions.
    - **Provisional assumption:** No; it assesses proposed AI use cases and workflow problems, not employees.
 
-2. **Are its recommendations used to recruit, assign tasks to, monitor, evaluate, promote, or otherwise make decisions about workers?**
-   - **What I need to know:** Whether the tool or its outputs affect employment decisions or workers' terms and conditions.
+2. **Are its recommendations used to recruit, promote, terminate, monitor or evaluate workers, or allocate tasks based on an individual's behavior or personal traits?**
+   - **What I need to know:** Whether the tool or its outputs inform employment decisions or assess/monitor worker performance or behavior.
    - **Why it matters:** Such intended uses may fall under Annex III, point 4; the exact purpose and effect on people determine whether the high-risk rules apply.
    - **Provisional assumption:** No; it recommends process fixes and tools, without evaluating or making decisions about workers.
 
-3. **Who decides whether a proposed AI use is allowed, and can a person meaningfully review or override the system's green/amber/red rating before action is taken?**
-   - **What I need to know:** Whether ratings are advisory, automatically acted on, or relied on by the Board or managers, and what the human review entails.
-   - **Why it matters:** This clarifies the system's actual influence and whether its use extends into an Annex III area or materially affects decisions about people.
-   - **Provisional assumption:** The ratings guide an internal pipeline decision; the Board reviews red cases, and no employment decision is made from the ratings.
+3. **What evidence validates the green/amber/red flags and the High/Medium/Low confidence percentages, and what should users do when a result is uncertain or wrong?**
+   - **What I need to know:** Evaluation results, confidence calibration, escalation thresholds, and a correction or appeal route for employees.
+   - **Why it matters:** The employee receives the report before any Board review and may act on it; unsupported compliance ratings could mislead users and weaken the system's claimed safeguards.
+   - **Provisional assumption:** The flags and confidence scores are advisory outputs; no independent validation or correction process is established in the brief.
 
-4. **Are employees clearly told they are interacting with AI, and are generated outputs ever published to inform the public or used to create deepfakes?**
-   - **What I need to know:** What disclosure users see and how generated text is distributed or presented.
-   - **Why it matters:** Article 50(1) generally requires notice for direct interaction with an AI system; Article 50(2), (4), and (5) cover marking certain generated content and disclosures for deepfakes or certain public-interest text.
-   - **Provisional assumption:** The tool is used internally; assume a clear AI notice is provided and reports are not published to the public or used to create deepfakes.
+4. **Does the employee see an AI notice before or at the start of the interaction, and are generated reports technically marked in a machine-readable way?**
+   - **What I need to know:** The notice's wording and timing, how the AI-generated label is implemented, and whether the output carries a detectable machine-readable marker.
+   - **Why it matters:** Article 50(1) covers informing people that they are interacting with AI; Article 50(2) separately addresses machine-readable marking of synthetic text, subject to specified exceptions.
+   - **Provisional assumption:** The report label is visible to employees, but its timing and technical marking are unverified; the tool is used internally, not to publish public-interest text or create deepfakes.
 
 ## Audit report
 
-**Scope and evidence basis — 16 November 2026.** This is a preliminary peer audit of the system brief and clarifying-question log only. The prototype is not currently used by Kleinanzeigen, and the four internal documents are fictional; conclusions should be rechecked against the production design and contracts.
+**Scope and evidence basis — 17 November 2026.** This is a preliminary peer audit based on *Fix My Process Systembrief_v2.md* and the clarifying-question log only. The prototype is not currently used by Kleinanzeigen, and the four internal documents are fictional; conclusions should be rechecked against the implemented design and vendor contracts.
 
 ### Section 1: System summary
 
-Fix My Process is a prototype internal assistant intended to help employees describe workplace process problems and receive a recommended, policy-aware fix. It searches external sources and four internal reference documents, then uses an AI model to classify the proposed use as green, amber, or red and produce an employee-facing fix plus a use-case card for internal governance teams. Red cases are sent to an AI Governance Board, while green and amber ratings may be acted on without a documented human check. The system stores case data and free text, has no login, and sends some information to external AI and search providers.
+Fix My Process is a prototype intended to help employees get practical fixes for slow or manual work tasks using company-approved tools. It takes department and problem details, searches external sources and four fictional internal documents, and generates an employee-facing fix and a summary for the AI enablement team. It also assigns a green/amber/red policy flag and a confidence score; employees receive the AI-labelled report before review, green cases are not reviewed, amber cases are shared for information, and red cases go to the Board afterward. The brief names the connected model, search, storage, workflow, messaging, and hosting services, but does not detail each service's data flows or safeguards.
 
 ### Section 2: Risk classification
 
-**First-pass tier: Limited risk / transparency obligations; not prohibited or high-risk on the stated facts.** The described purpose is internal process improvement, not a decision about a natural person in an Annex III area such as employment, and no Article 5 practice is described. Direct employee interaction brings Article 50(1) transparency into scope: users must be told they are interacting with AI unless that is obvious. Article 50(2) may also matter if the system generates synthetic text, subject to its scope and technical applicability. This classification is uncertain until the team confirms that the system never infers emotions or sensitive traits, scores workers, or influences recruitment, task allocation, monitoring, evaluation, promotion, or other employment decisions. Article 4 AI-literacy measures also apply to staff operating or using AI systems. [EU AI Act, Articles 4 and 50](https://eur-lex.europa.eu/eli/reg/2024/1689)
+**First-pass tier: Limited risk / transparency obligations; not prohibited or high-risk on the stated facts.** The stated purpose is internal process improvement, not a decision about a natural person in an Annex III area such as employment (Annex III, point 4), and no Article 5 practice is described. The employee-facing report is labelled AI-generated, but verify that the Article 50(1) notice is given at the appropriate time. Since the system generates text, assess Article 50(2)'s machine-readable marking duty and whether an exception applies; a visible label alone does not establish technical marking. Article 4 AI-literacy measures also apply to staff operating or using AI systems. Confirm the system is not repurposed for worker assessment or employment decisions. [EU AI Act, Articles 4 and 50](https://eur-lex.europa.eu/eli/reg/2024/1689)
 
 ### Section 3: Role map
 
 | Role | Party on current facts | Key obligations / implications |
 |---|---|---|
-| Provider | The project team or future operating company that develops and makes the assistant available; the brief does not identify a legal entity. | Define intended purpose, risk controls, documentation, user instructions, AI notice, monitoring, and vendor arrangements. If the system is materially modified or presented under another entity's name, reassess whether that entity becomes a provider under the Act. |
-| Deployer | No current deployer: the brief says Kleinanzeigen does not use the prototype. If adopted, Kleinanzeigen would likely deploy it for internal work. | Use it according to its intended purpose, provide AI literacy, ensure meaningful human review of consequential use, implement data/security controls, and preserve Article 50 notices. Confirm that outputs do not become employment decisions. |
-| Third-party vendors | External AI/model and web-search, news, and research services; hosting/database and Slack may also be vendors, but are not identified. Some services are in the US. | Identify each vendor and data flow; contract for confidentiality, security, retention, incident support, permitted use, and deletion; assess international transfers and whether vendor outputs can support the claimed confidence and compliance ratings. |
+| Provider | Ayhan Demir built the prototype alone. The legal provider for any future market placement or deployment is not established by the brief. | Confirm which person or entity places the system on the market or puts it into service, and assign applicable provider responsibilities. In particular, verify Article 50(1) user information and Article 50(2) output marking. |
+| Deployer | No current deployer: the brief says Kleinanzeigen does not use the prototype. If adopted, Kleinanzeigen would likely deploy it for internal work. | Define operational ownership and AI-literacy measures under Article 4; preserve applicable transparency information and use the system within the stated purpose. Do not treat its flags as independently validated approvals. |
+| Third-party vendors | The brief names OpenAI (language model), Cohere (ranking), Pinecone (document search), Tavily, GNews and OpenAlex (research), Airtable (case records), Notion (summaries), Slack (reviews/alerts), n8n (workflow), and Gradio/Render (interface/hosting). | Map which data each service receives, processing locations, retention, access, and contractual terms; verify security, deletion, secondary-use, and international-transfer safeguards. The brief names services but does not establish these controls or where processing occurs. |
 
 ### Section 4: Compliance findings
 
-> **Finding 1 — Article 50 user transparency is not evidenced**  
+> **Finding 1 — Article 50 user transparency is not fully evidenced**
+>
 > **Severity:** Significant  
-> **Description:** The system directly interacts with employees, so the provider must ensure a clear AI disclosure at or before first interaction unless the interaction is obvious. The brief mentions only a notice/instruction in the data-risk description; it does not show the interface, wording, timing, accessibility, or testing.  
-> **Recommended action:** Add and test a prominent first-interaction notice, identify the AI-generated fix and use-case card where appropriate, and document the decision on Article 50(2) marking for generated text.  
+>
+> **Description:** Employees receive the report labelled AI-generated, which is evidence of a disclosure. The brief does not show whether employees are informed at or before the interaction as Article 50(1) requires, or whether the generated text has the machine-readable marking addressed by Article 50(2).
+>
+> **Recommended action:** Verify the timing and clarity of the Article 50(1) notice and test the output for Article 50(2) marking, documenting whether an exception applies.
+>
 > **Escalation needed?** Yes — to the AI governance owner and legal/privacy counsel.
 
-> **Finding 2 — Uncontrolled personal-data and international-transfer exposure**  
+> **Finding 2 — Personal-data and international-transfer exposure is unassessed**
+>
 > **Severity:** Significant  
-> **Description:** Free text may contain names, the app has no login, and case data is sent to external AI/search services, some in the US. The evidence shows only a notice and an instruction to the model to guard against names; it does not establish minimisation, access control, retention, processor terms, a lawful basis, transfer safeguards, or a DPIA where required. These are principally GDPR/security issues, but they are a material deployment gate.  
-> **Recommended action:** Add authentication and role-based access; minimise or redact personal data before external calls; map all processors and locations; set retention/deletion rules; complete the privacy and transfer assessment with the DPO; and prevent vendor training or secondary use unless expressly approved.  
+>
+> **Description:** Free text may contain names, no login is requested, and the system connects to external AI, search, storage, and hosting services. The brief does not map which data goes to each vendor, processing locations, access controls, retention, processor terms, lawful basis, or transfer safeguards. These are principally GDPR/security questions and cannot be resolved from the brief.
+>
+> **Recommended action:** Minimise or redact personal data before external calls; map data flows, vendor locations, and access; set retention/deletion rules; and complete privacy and transfer assessments with the DPO before deployment.
+>
 > **Escalation needed?** Yes — to the DPO/privacy counsel and information-security owner.
 
-> **Finding 3 — Green/amber ratings lack mandatory human review and reliable assurance**  
+> **Finding 3 — Compliance ratings and confidence scores lack documented validation**
+>
 > **Severity:** Significant  
-> **Description:** The system decides whether a use is allowed and which tool to recommend, while only red cases go to the Board. The 15-case test scored 79%, and 2 of 5 “High” reports were wrong. Even if this is not high-risk AI on the stated purpose, an unchecked “green” could cause an employee to breach policy and could gradually influence employment or governance decisions.  
-> **Recommended action:** Make green/amber outputs advisory; require a named, trained reviewer before action, with override and audit logging; route low-confidence or policy-sensitive cases to the Board; define prohibited uses and stop conditions; and retest accuracy by use case before launch.  
+>
+> **Description:** Employees receive reports before any review; green cases receive no review, amber cases are shared for information, and the Board reviews red cases afterward. The brief gives no evidence validating the flags or confidence percentages. An employee could act on an incorrect green rating, although the described purpose does not itself make this a high-risk employment system.
+>
+> **Recommended action:** Keep ratings clearly advisory, substantiate confidence scores with representative evaluation, set escalation criteria for uncertainty or policy-sensitive cases, and provide a correction route. Consider review before action where the recommendation could create material policy or privacy consequences.
+>
 > **Escalation needed?** Yes — to the AI Governance Board and policy owner.
 
-> **Finding 4 — Provider, deployer, and vendor accountability is undocumented**  
+> **Finding 4 — Provider/deployer accountability and vendor data flows are undocumented**
+>
 > **Severity:** Significant  
-> **Description:** The brief does not identify the legal provider, a current deployer, model/search vendors, hosting location, or allocation of incident and monitoring responsibilities. Without this map, the team cannot reliably assign AI Act transparency and literacy duties or verify contractual and data-protection controls.  
-> **Recommended action:** Create a system record naming each role, intended purpose, model/version, data flow, vendor, owner, reviewer, retention period, and escalation route; obtain written vendor terms and maintain change and incident logs.  
+>
+> **Description:** The brief identifies the builder and connected services, but not the legal provider for future use, data flows, processing locations, or allocation of incident and monitoring responsibilities. Without these details, applicable duties and data-protection controls cannot be verified.
+>
+> **Recommended action:** Create a system record naming the provider/deployer, intended purpose, model/version, data flow per vendor, owners, retention, and escalation route; obtain and review written vendor terms.
+>
 > **Escalation needed?** Yes — to procurement, legal/privacy, security, and the AI Governance Board.
 
-> **Finding 5 — Prohibited and employment-use boundary is not technically enforced**  
+> **Finding 5 — Prohibited and employment-use boundary is not technically enforced**
+>
 > **Severity:** Minor  
-> **Description:** The brief says the system does not assess people, infer emotions, or make employment decisions, which supports the first-pass classification. However, the clarifying questions remain unanswered and the system accepts open-ended problem text and tool requests. A future user could repurpose it for worker monitoring, scoring, allocation, or evaluation, changing the classification.  
-> **Recommended action:** Encode and test use-case exclusions, add user-facing warnings, require Board review for employment-related proposals, and reclassify before any such use.  
+>
+> **Description:** The brief describes process-improvement advice and says no applicants or members of the public are involved; it does not describe worker assessment or an Article 5 practice. However, open-ended employee submissions could raise employment-related use cases, and the brief does not explicitly rule out every form of worker monitoring, scoring, task allocation, or evaluation.
+>
+> **Recommended action:** Encode and test use-case exclusions, add user-facing warnings, require Board review for employment-related proposals, and reclassify before any such use.
+>
 > **Escalation needed?** No — unless a prohibited or employment-related use is proposed; then escalate to legal counsel and the Board.
 
 ### Section 5: Overall recommendation
 
-**Proceed with conditions.** No prohibited or high-risk use is evidenced in the brief, but deployment should wait until the team implements the Article 50 notice, confirms the provider/deployer/vendor map, completes privacy and international-transfer review, and adds human review and confidence-based escalation for green/amber outputs. The system must remain advisory and out of employment decisions; any change to that boundary requires a fresh risk classification and legal review.
+**Proceed with conditions.** No prohibited or high-risk use is evidenced in v2, but before deployment the team should verify Article 50(1) notice timing and Article 50(2) marking, confirm provider/deployer accountability, map vendor data flows and safeguards, and validate the compliance flags and confidence scores. Keep the system advisory and outside employment decisions; any change to that boundary requires a fresh risk classification and legal review.
 
 ### Section 6: What this report is not
 
