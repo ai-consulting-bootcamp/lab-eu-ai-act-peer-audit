@@ -1,23 +1,19 @@
-# Audit your teammate's project
+# Peer audit – Career Intelligence Agent (Ironhack Week 7)
 
-**Track:** Module 7 — EU AI Act · **When:** Week 7, Day 2 · **Status:** Required
+Independent EU AI Act compliance review of a teammate's Project 3.
 
-This repository contains everything you need for this lab.
+- **Auditor:** Murat Çömez
+- **Teammate / builder:** Max
+- **Project audited:** Career Intelligence Agent – AI career guidance for job seekers (Python, LangGraph, Streamlit, OpenAI, Pinecone)
 
-## Files
+**Start here → [`lab_proof.md`](lab_proof.md)**
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
-
-## How to complete this lab
-
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
-
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+| File | Content |
+|---|---|
+| `lab_proof.md` | Entry point: workflow, one worked run, output, limitation |
+| `teammate_system_brief_career_intelligence_agent.pdf` | Builder's system brief (input) |
+| `01_brief_annotations_and_classification.md` | Annotations + first-pass classification |
+| `02_clarifying_questions_log.md` | Written questions, assumptions, audit trail |
+| `03_audit_report_career_intelligence_agent.md` | 2-page audit report |
+| `04_debrief_and_closing_note.md` | Debrief + joint closing note |
+| `05_stretch_work_plan_finding_1.md` | Stretch: work plan for Finding 1 |
