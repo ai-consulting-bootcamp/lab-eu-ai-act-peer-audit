@@ -1,0 +1,13 @@
+# Phase 3: Clarifying Questions Log: Interview Prep Report
+
+**Asked by:** Ayhan Demir · **To:** Julia Antunes · 17 Nov 2026 · **Scope:** EU AI Act
+
+| # | What I need to know | Why it matters for classification or obligations | What I am assuming for now |
+|---|---|---|---|
+| 1 | **Who would offer the system in production?** Julia under her own name, a careers service or bootcamp for its learners, or a public web app? | Decides who the **provider** is (Art. 3(3)) and whether there is a professional **deployer**. A careers service would be a deployer with Art. 4 duties; individual job seekers are covered by the personal-use exemption (Art. 2(10)). | Julia would publish it under her name as a free tool for individual job seekers in the EU. She is the provider; there is no professional deployer. |
+| 2 | **Can a user submit a CV or GitHub profile that is not their own?** Is there any check, consent statement or terms of use? | This is the line between limited risk and **Annex III 4(a)**. A recruiter running candidates' CVs through it would be evaluating candidates, and because that is profiling, the Art. 6(3) exception would not apply. Under Art. 25(1)(c) that recruiter could become a high-risk provider. | There is no technical or contractual check. Anyone can upload any CV or profile. |
+| 3 | **Is the report ever shared with, or produced for, an employer or recruiter**, for example exported, emailed or used in a coaching service paid by an employer? | If the output reaches a hiring decision-maker, the intended purpose shifts towards selection, even without a score. | The report is shown only to the person who submitted the material, and is not sent anywhere. |
+| 4 | **How is the report presented?** Does the page say the report is AI-generated, and is there any machine-readable marker in the HTML? | **Art. 50(1)** (users must know they are dealing with an AI, unless obvious) and **Art. 50(2)** (machine-readable marking of AI-generated text). The brief does not mention either. | Neither is in place: no visible AI notice and no marker in the HTML. |
+| 5 | **Which "online research sources" are used, and are any of them AI models** besides OpenAI? | Completes the vendor map. A general-purpose AI model provider has its own Art. 53 duties; a plain search or news service has no AI Act role. | OpenAI is the only AI model provider; the research sources are search and news services with no AI Act role. |
+
+**How the assumptions affect the audit:** with assumptions 1 to 3, the tier is limited risk. If the answer to question 2 or 3 is "yes, recruiters can or do use it", the tier moves to high-risk under Annex III 4(a), and the audit would need the full high-risk checklist.
