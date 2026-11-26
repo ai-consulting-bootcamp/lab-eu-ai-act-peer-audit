@@ -19,7 +19,7 @@ This repository contains everything you need for this lab.
 | [`01-model-intake-brief-annotations.md`](./01-model-intake-brief-annotations.md) | Exchange log (ground rules) + Phase 1 annotations |
 | [`02-classification-and-clarifying-questions.md`](./02-classification-and-clarifying-questions.md) | CFU 1–2, Phase 2 classification table, Phase 3 questions log |
 | [`03-peer-audit-report-model-intake.md`](./03-peer-audit-report-model-intake.md) | Phase 4: two-page audit report (6 sections) |
-| [`04-debrief-and-joint-closing-note.md`](./04-debrief-and-joint-closing-note.md) | Phase 5: five-step debrief, joint closing note, Reinforce |
+| [`04-debrief-and-joint-closing-note.md`](./04-debrief-and-joint-closing-note.md) | Phase 5: five-step debrief, closing note (written alone; partner unavailable), Reinforce |
 | [`05-stretch-work-plan-evidence-integrity.md`](./05-stretch-work-plan-evidence-integrity.md) | Stretch: work plan for Finding 1 |
 
 **Result:** limited risk (Art 50(2)). Recommendation: proceed with conditions. Same tier as the builder's self-audit, with 3 shared gaps, 2 found only by the self-audit and 2 found only by the peer audit.
