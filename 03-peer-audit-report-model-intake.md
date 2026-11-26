@@ -4,7 +4,7 @@
 
 ## 1. System summary
 
-Model Intake Brief helps a company's AI governance team check a third-party AI model before teams build on it. The reviewer enters a model ID. An automated LangGraph workflow searches the supplier's public documentation and reads the pages. An OpenAI model then proposes, for each of 18 checklist items (based on AI Act Art 53, Annexes XI/XII and the GPAI Code of Practice), whether evidence was found. Python verifies every quote against the page, rejects quotes about other model variants and tests the links. The output is a Markdown report with statuses, quotes, gaps and templated questions for the supplier. A human then decides separately on integration, but the prototype doesn't enforce that step.
+Model Intake Brief helps an AI governance team check a third-party AI model before teams build on it. The reviewer enters a model ID. An automated LangGraph workflow searches and reads the supplier's public documentation. An OpenAI model then proposes a status for each of 18 GPAI checklist items (Art 53, Annexes XI/XII, Code of Practice). Python verifies each quote against the page, rejects quotes about other variants and tests the links. The output is a Markdown report with statuses, quotes, gaps and templated supplier questions. A separate human integration decision is intended but not enforced.
 
 ## 2. Risk classification
 
@@ -19,7 +19,7 @@ Model Intake Brief helps a company's AI governance team check a third-party AI m
 |---|---|---|
 | Provider | **Sergii Rostovskyi**: built it, would place it on the EU market under his name. If a client rebrands it, the client becomes provider. | **Art 50(2):** marking. **Art 4:** AI-literacy measures for his own team. Instructions for use are good practice. |
 | Deployer | **EU client** (governance, risk and PMO reviewers) | **Art 4:** take measures so reviewers understand the tool's limits. Use it within its intended purpose (first-pass triage). The client's *own* downstream duties when it integrates a GPAI model don't pass to the tool. |
-| Vendor: GPAI model | **OpenAI** (`gpt-5.4-mini`, `text-embedding-3-small`) | **Art 53:** documentation for downstream providers. Ironically, this is exactly what the tool checks for in other models. |
+| Vendor: GPAI model | **OpenAI** (`gpt-5.4-mini`, embeddings) | **Art 53:** documentation for downstream providers. This is exactly what the tool checks for in other models. |
 | Vendors: non-AI or ancillary | Tavily (search), Jina Reader (extraction), Hugging Face Hub (metadata), Pinecone (vector store) | No AI Act provider role for this system. They are **GDPR processors** (DPAs, US transfers) and fall under terms-of-service and copyright limits. |
 
 ## 4. Compliance findings
@@ -103,4 +103,4 @@ Model Intake Brief helps a company's AI governance team check a third-party AI m
 
 ## 6. What this report is not
 
-This report is not a legal opinion, not a conformity assessment and not a certification. It is a first-pass consulting review based on a 300–500-word brief and public repository documentation, with the assumptions stated in `02`. Conclusions should be verified with legal counsel before any EU market placement.
+This report is not a legal opinion, not a conformity assessment and not a certification. It is a first-pass review of the brief and public repository documentation, with the assumptions in `02`. Conclusions should be verified with legal counsel before any EU market placement.
