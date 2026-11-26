@@ -66,6 +66,6 @@ I presented [`03-peer-audit-report-model-intake.md`](./03-peer-audit-report-mode
 - **What this says about my documentation:** the README describes *how the system works* very well, but nothing about *who is accountable* and *what it is for*. Those are the two things an auditor asks first.
 
 **2. A finding from Sergii's audit I initially disagreed with:**
-- **His Finding 3:** "Failed checks do not prevent release". After 2 retries the report is still shown, downloadable and emailable.
+- **His Finding 3:** "Failed checks do not prevent release". I checked the code (`app/agent/nodes.py`, `route_after_check` and `route_after_guard`). After the first attempt and 2 retries, both the number check and the wording check let the workflow finish anyway. The UI shows "All automatic checks passed" only on a full pass, but a failed report still reaches the reader.
 - **My first reaction:** this felt unfair. The number check and guardrail are the most carefully built part of Menohelp, and the README calls the analysis "verified".
-- **After the debrief:** I agree. "Verified" is a claim, and if the check can fail and the report still ships, the claim is false in exactly the cases that matter. My self-audit missed this because I knew the checks almost always pass. The fix is small: block display, download and email when checks fail after the retries, and show a safe fallback instead.
+- **After the debrief:** I agree. "Verified" is a claim, and if the check can fail and the report still ships, the claim is false in exactly the cases that matter. My self-audit missed this because I knew the checks almost always pass. The fix is small: when checks still fail after the retries, withhold the report (and its download and email) and show a safe fallback instead.
