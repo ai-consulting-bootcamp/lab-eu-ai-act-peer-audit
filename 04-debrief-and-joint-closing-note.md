@@ -3,7 +3,7 @@
 > **Simulation disclosure.** Sergii was not available for a live debrief today (26 Nov 2026), and his own peer audit of Menohelp was also completed without a live exchange (see his [`simulation-disclosure.md`](https://github.com/s-rostovskyi/lab-eu-ai-act-peer-audit/blob/main/simulation-disclosure.md)).
 > - **Real:** his system brief, his repo, and his **written self-audit and memo** ([assessment](https://github.com/s-rostovskyi/lab-eu-ai-act-self-audit/blob/main/deliverables/model-intake-eu-ai-act-assessment.md), [memo](https://github.com/s-rostovskyi/lab-eu-ai-act-self-audit/blob/main/deliverables/model-intake-compliance-memo.md)). I opened them only after `03` was finished.
 > - **Builder responses (step 2):** taken from his written self-audit where it addresses the point (quoted or cited). Points it doesn't address are marked *simulated*.
-> - **Joint closing note:** drafted by me, **pending Sergii's confirmation**.
+> - **Closing note:** written by me alone. Sergii is unavailable, so there was no joint session. His perspective comes from his written self-audit, as in step 2. He has not reviewed or approved the note.
 
 ## 1. Auditor presents
 
@@ -51,7 +51,7 @@ I presented [`03-peer-audit-report-model-intake.md`](./03-peer-audit-report-mode
 - **What the outside view caught:** risks that come from the *purpose and the environment*. Who writes the evidence? What does the label "Evidence found" do to a busy reviewer? What does selling a "compliance" product imply?
 - **Shared blind spot:** neither of us started from the question "can the input be hostile?"
 
-## 5. Joint closing note *(draft, pending Sergii's confirmation)*
+## 5. Closing note *(written by the auditor alone; the builder was unavailable)*
 
 > Auditing your own system, you check the rules against what you *intended* it to do. That made the self-audit stronger on legal precision: scope, exceptions, and the facts only the builder knows. Auditing someone else's system, you look at what it *does* in the world: who writes its inputs, and how its outputs will be read and used. That surfaced risks the builder was too close to see. The two audits agreed on the tier and on three gaps. The most useful findings were the ones only one side found, so a real review needs both.
 

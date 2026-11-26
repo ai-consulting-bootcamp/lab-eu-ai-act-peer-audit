@@ -26,7 +26,7 @@ This repository contains everything you need for this lab.
 
 **Independence and simulation:**
 - **What I read before writing the report:** only the system brief and the repo documentation. I read Sergii's self-audit after finishing `03`.
-- **What was simulated:** there was no live debrief, so the builder responses not covered by his written self-audit are simulated. The joint note is pending his confirmation. See the disclosure in `04`.
+- **What was simulated:** there was no live debrief, so the builder responses not covered by his written self-audit are simulated. Sergii was unavailable, so I wrote the closing note alone, drawing his perspective from his written self-audit. See the disclosure in `04`.
 
 ## How to complete this lab
 
